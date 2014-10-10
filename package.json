@@ -1,0 +1,29 @@
+{
+	"name": "hipchat-foosball-referee",
+	"displayName": "Foosball Referee",
+	"description": "Organises games of foosball in a room.",
+	"version": "0.0.1",
+	"author": {
+		"name": "Rory Haddon",
+		"url": "http://roryhaddon.com"
+	},
+	"license": "Apache 2.0",
+	"engines": {
+		"node": "~0.11.13"
+	},
+	"scripts": {
+		"web": "node --harmony foosball.js"
+	},
+	"development": {
+		"port": 3001
+	},
+	"production": {
+		"localBaseUrl": "https://foosball.roryhaddon.com",
+		"port": 3001
+	},
+	"dependencies": {
+		"ac-koa": "^0.2.3",
+		"ac-koa-hipchat": "^0.2.4",
+		"lodash": "2.4.x"
+	}
+}
