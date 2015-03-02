@@ -10,3 +10,7 @@ Install/Run:
 
     npm install
     npm run web
+
+Tests:
+
+    npm test

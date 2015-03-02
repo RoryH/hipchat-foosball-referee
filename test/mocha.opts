@@ -1,0 +1,2 @@
+--require test/es6_mocha.js
+--require test/test_helpers.js
