@@ -6,7 +6,7 @@ var ack = require('ac-koa').require('hipchat'),
 var addon = app.addon()
       .hipchat()
       .allowRoom(true)
-      .scopes(['send_notification','admin_room']),
+      .scopes(['send_notification','view_room']),
     msgOps = require('./lib/msg_operations.js');
 
 
