@@ -2,7 +2,7 @@
   "name": "hipchat-foosball-referee",
   "displayName": "Foosball Referee",
   "description": "Organises games of foosball in a room.",
-  "version": "0.0.2",
+  "version": "0.0.5",
   "author": {
     "name": "Rory Haddon",
     "url": "http://roryhaddon.com"
