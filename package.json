@@ -29,7 +29,7 @@
   "dependencies": {
     "ac-koa": "^0.2.3",
     "ac-koa-hipchat": "^0.2.4",
-    "lodash": "2.4.x"
+    "lodash": "4.17.x"
   },
   "devDependencies": {
     "chai": "^1.10.0",
